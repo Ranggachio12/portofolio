@@ -1,117 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portofolio Rangga</title>
-        <style>
-            img {
-                display: block;
-                margin: 0 auto 20px auto;
-                width: 120px;
-                height: 120px;
-                object-fit: cover;
-                border-radius: 50%;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Rangga</title>
+    <style>
+      img {
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      body {
+        background-color: #0f172a;
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 30px;
+        line-height: 1.6;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      h1 {
+        color: skyblue;
+        text-align: center;
+      }
+      h2 {
+        color: skyblue;
+        margin-top: 40px;
+      }
+      h3 {
+        color: skyblue;
+      }
+      a {
+        display: inline-block;
+        background-color: skyblue;
+        color: #0f172a;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        margin: 4px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        background-color: #1e293b;
+        padding: 10px 20px;
+        margin: 4px;
+        border-radius: 20px;
+      }
+      .angka {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: skyblue;
+        margin: 10px 0 0 0;
+      }
+      .angka span {
+        font-size: 1rem;
+        font-weight: normal;
+        color: white;
+      }
+      a {
+        transition: 0.2s;
+      }
+      a:hover {
+        background-color: white;
+      }
+      li {
+        transition: 0.2s;
+      }
+      li:hover {
+        background-color: #334155;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="rangga.jpg" alt="Foto Rangga" />
+    <h1>Halo, Saya Rangga Amanda Chechio</h1>
+    <p>
+      Mahasiswa S1 Teknik Informatika yang sedang belajar pengembangan web
+      dasar, Python, dan C++. Selain itu, saya tertarik pada dunia trading dan
+      memiliki minat di bidang event production. Website ini saya buat sebagai
+      showcase perjalanan belajar dan proyek-proyek saya.
+    </p>
+    <h2 id="skill">Skill</h2>
+    <ul>
+      <li>HTML</li>
+      <li>Python</li>
+      <li>CSS</li>
+      <li>C++</li>
+      <li>Trading</li>
+      <li>Event Production</li>
+    </ul>
+    <h2>Pendidikan</h2>
+    <p>
+      SMK An Nurmaniyah, Teknik Komputer Jaringan dan Telekomunikasi. 2022-2025
+    </p>
+    <p>S1 Teknik Informatika, Universitas Pamulang. 2025-Sekarang</p>
+    <h2 id="pengalaman">Pengalaman</h2>
+    <h3>Dokumenter, Film Perpisahan, dan Short Movie Acara Sekolah (2025)</h3>
+    <p class="angka">5.000+ <span>kali ditonton</span></p>
+    <p>
+      Berperan sebagai <strong>Produser</strong> dan
+      <strong>Floor Director</strong>. Sebagian besar konsep dikembangkan dari
+      ide saya. Hasil akhirnya berupa video berdurasi sekitar 9 menit yang telah
+      ditonton lebih dari 5.000 kali di Instagram Reels akun resmi
+      <strong>smkyapera_hits</strong>.
+    </p>
+    <a href="https://www.instagram.com/reel/DJsuA4CztGZ/">Tonton Videonya</a>
+    <h2 id="proyek">Proyek</h2>
+    <h3>Pengolah Nilai Mahasiswa (C++)</h3>
+    <p>
+      Program untuk mengelola nilai mahasiswa menggunakan array satu dan dua
+      dimensi, termasuk mencari nilai tertinggi dan terendah.
+    </p>
 
-            }
-            body {
-                background-color: #0f172a;
-                color: white;
-                font-family: Arial, sans-serif;
-                padding: 30px;
-                line-height: 1.6;
-                max-width: 700px;
-                margin: 0 auto;
-            }
-            h1 {
-                color: skyblue;
-                text-align: center;
-            }
-            h2 {
-                color: skyblue;
-                margin-top: 40px;
-            }
-            h3 {
-                color: skyblue;
-            }
-            a {
-                display: inline-block;
-                background-color: skyblue;
-                color: #0f172a;
-                padding: 10px 20px;
-                border-radius: 8px;
-                text-decoration: none;
-                margin: 4px;
-            }
-            ul {
-                list-style-type: none;
-                padding: 0;
-            }
-            li {
-                display: inline-block;
-                background-color: #1e293b;
-                padding: 10px 20px;
-                margin: 4px;
-                border-radius: 20px;
-            }
-            .angka {
-                 font-size: 2.5rem;
-                     font-weight: bold;
-                  color: skyblue;
-                     margin: 10px 0 0 0;
-            }
-            .angka span {
-                font-size: 1rem;
-                font-weight: normal;
-                color: white;
-            }
-            a {
-                transition: 0.2s;
-            }
-            a:hover {
-                background-color: white;
-            }
-            li {
-                transition: 0.2s;
-            }
-            li:hover {
-                background-color: #334155;
-            }
-        </style>
-    </head>
-    <body>
-        <img src="rangga.jpg" alt="Foto Rangga">
-        <h1>Halo, Saya Rangga Amanda Chechio</h1>
-        <p>Mahasiswa S1 Teknik Informatika yang sedang belajar pengembangan web dasar, Python, dan C++. Selain itu, saya tertarik pada dunia trading dan memiliki minat di bidang event production. Website ini saya buat sebagai showcase perjalanan belajar dan proyek-proyek saya.</p>
-        <h2 id="skill">Skill</h2>
-        <ul>
-            <li>HTML</li>
-            <li>Python</li>
-            <li>CSS</li>
-            <li>C++</li>
-            <li>Trading</li>
-            <li>Event Production</li>
-        </ul>
-        <h2>Pendidikan</h2>
-        <p>SMK An Nurmaniyah, Teknik Komputer Jaringan dan Telekomunikasi. 2022-2025</p>
-        <p>S1 Teknik Informatika, Universitas Pamulang. 2025-Sekarang</p>
-        <h2 id="pengalaman">Pengalaman</h2>
-        <h3>Dokumenter, Film Perpisahan, dan Short Movie Acara Sekolah (2025)</h3>
-        <p class="angka">5.000+ <span>kali ditonton</span></p>
-        <p>Berperan sebagai <strong>Produser</strong> dan <strong>Floor Director</strong>. Sebagian besar konsep dikembangkan dari ide saya. Hasil akhirnya berupa video berdurasi sekitar 9 menit yang telah ditonton lebih dari 5.000 kali di Instagram Reels akun resmi <strong>smkyapera_hits</strong>.</p>
-        <a href="https://www.instagram.com/reel/DJsuA4CztGZ/">Tonton Videonya</a>
-        <h2 id="proyek">Proyek</h2>
-        <h3>Pengolah Nilai Mahasiswa (C++)</h3>
-        <p>Program untuk mengelola nilai mahasiswa menggunakan array satu dan dua dimensi, termasuk mencari nilai tertinggi dan terendah.</p>
+    <h3>Deteksi Logical CPU (Python)</h3>
+    <p>
+      Script sederhana untuk mendeteksi jumlah logical CPU pada komputer
+      menggunakan modul <code>os</code>.
+    </p>
 
-        <h3>Deteksi Logical CPU (Python)</h3>
-        <p>Script sederhana untuk mendeteksi jumlah logical CPU pada komputer menggunakan modul <code>os</code>.</p>
-
-        <h3>Website Portofolio (HTML dan CSS)</h3>
-        <p>Website portofolio pertama saya, dibuat dari nol dan sudah dipublikasikan online.</p>
-        <h2 id="kontak">Kontak</h2>
-        <a href="https://wa.me/6281234567890"">WhatsApp</a>
-        <a href="https://www.instagram.com/rnggachio">Instagram</a>
-        <a href="CV.Rangga.pdf" download>Unduh CV</a>
-    </body>
+    <h3>Website Portofolio (HTML dan CSS)</h3>
+    <p>
+      Website portofolio pertama saya, dibuat dari nol dan sudah dipublikasikan
+      online.
+    </p>
+    <h2 id="kontak">Kontak</h2>
+    <a href="https://wa.me/6285894381706">WhatsApp</a>
+    <a href="https://www.instagram.com/rnggachio">Instagram</a>
+    <a href="CV.Rangga.pdf" download>Unduh CV</a>
+  </body>
 </html>
